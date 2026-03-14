@@ -2,6 +2,9 @@
 
 Homebrew tap for Vana CLI releases.
 
+The current formula tracks the latest `vana-connect` canary release while the
+CLI is still in active rollout.
+
 ## Install
 
 ```bash
