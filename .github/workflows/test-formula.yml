@@ -10,7 +10,9 @@ jobs:
     runs-on: macos-14
     steps:
       - uses: actions/checkout@v5
+      - name: Tap local repository
+        run: brew tap vana-com/vana "file://$GITHUB_WORKSPACE"
       - name: Install formula from tap repo
-        run: brew install --formula ./Formula/vana.rb
+        run: brew install vana
       - name: Verify installed vana
         run: vana status --json
