@@ -1,22 +1,22 @@
 class Vana < Formula
   desc "Vana Connect CLI"
   homepage "https://github.com/vana-com/vana-connect"
-  version "0.8.1-canary.5029900"
+  version "0.8.1-canary.39a29e6"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/vana-com/vana-connect/releases/download/canary-feat-connect-cli-v1/vana-darwin-arm64.tar.gz"
-      sha256 "68552f3a1056a2c464afa63123a156b22188cd87e07de2c7c99b01bca8efd6e8"
+      sha256 "0cbe5f834a33f5de0788d3c05edfb8a0891ce0e63e722212be366aa05136440a"
     else
       url "https://github.com/vana-com/vana-connect/releases/download/canary-feat-connect-cli-v1/vana-darwin-x64.tar.gz"
-      sha256 "41053bd8fa4bc8fe6e1802bc350b38bb40cb768223910af710ad344d8da5522d"
+      sha256 "4c6a3561c27b81d026ee76aeaf75c8da5bcd7668c7d7992245696b74c59bab8f"
     end
   end
 
   on_linux do
     url "https://github.com/vana-com/vana-connect/releases/download/canary-feat-connect-cli-v1/vana-linux-x64.tar.gz"
-    sha256 "249f390e09835eae85ae84eea861d64e42c1fd9b73d9996ecc414ce0563b52eb"
+    sha256 "2eecab2cacbb457d43c1477619c0365e9e2b417cf863a27becaeef533a63c28c"
   end
 
   def install
