@@ -1,4 +1,4 @@
-# homebrew-vana
+# homebrew-tap
 
 Homebrew tap for Vana CLI releases.
 
@@ -8,8 +8,7 @@ CLI is still in active rollout.
 ## Install
 
 ```bash
-brew tap vana-com/vana
-brew install vana
+brew install vana-com/tap/vana
 ```
 
 ## Upgrade
